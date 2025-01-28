@@ -42,23 +42,7 @@ int main() {
     cout << *it << " ";
     }
     //rend(); never used. may skip it.
-
-
-
-
-
-
-
-
-
-
-
+    v.erase(v.begin()+1);  //second element gets deleted.
     cout<<endl;
-
-
-
-
-
-
     return 0;
 }
