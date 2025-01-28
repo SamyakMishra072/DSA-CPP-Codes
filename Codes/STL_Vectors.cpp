@@ -31,7 +31,27 @@ int main() {
     for (auto it = v.begin(); it != v.end(); ++it) {
     cout << *it << " ";
     }
+    cout<<endl;
+    cout<<"REVERSE TRAVERSAL"<<endl;
     //auto automatically deduces the type of it, making the code more concise.
+    //auto it=v.rend();//Returns a reverse iterator pointing 
+    //to the theoretical element preceding the first element of the vector.
+    //auto it=v.rbegin(); //Returns a reverse iterator pointing to the last element of the vector v.
+    //REVERSE WAY
+    for (auto it = v.rbegin(); it != v.rend(); ++it) {
+    cout << *it << " ";
+    }
+    //rend(); never used. may skip it.
+
+
+
+
+
+
+
+
+
+
 
     cout<<endl;
 
