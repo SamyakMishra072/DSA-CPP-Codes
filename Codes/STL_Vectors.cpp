@@ -15,9 +15,30 @@ int main() {
 
     vec.emplace_back(100, 200); // Adding a pair (100, 200) to the vector. No extra curly braces are needed.
 
-    vector<int> v1(400, 121); // Creates a vector of size 400, with all elements initialized to 121.
+    vector<int> v1(11, 121); // Creates a vector of size 400, with all elements initialized to 121.
 
     vector<int> v2(5); // Creates a vector of size 5, with all elements default-initialized to 0.
+    //vector is dynamic in nature.// indexing is similar as that of arrays.
+    vector<int>v7(5,20); //Result: v7 = {20, 20, 20, 20, 20}.
+    vector <int>v4(v7);  //This initializes a vector v4 by copying all the elements of v1.
+//Use of iterators.
+    /*
+    for (vector<int>::iterator it=v.begin();it!=v.end();it++) {
+        cout<<*(it)<<" ";
+    }
+    */
+    //ALTERNATIVE METHOD (better approach)
+    for (auto it = v.begin(); it != v.end(); ++it) {
+    cout << *it << " ";
+    }
+    //auto automatically deduces the type of it, making the code more concise.
+
+    cout<<endl;
+
+
+
+
+
 
     return 0;
 }
