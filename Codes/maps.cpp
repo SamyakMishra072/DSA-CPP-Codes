@@ -21,7 +21,10 @@ int main() {
 
     // Accessing elements
     cout << m1[1] << endl; // Outputs 2
-    cout << m1[5] << endl; // Outputs 0 (default-initialized since key 5 does not exist)
+    cout << m1[5] << endl; 
+    // Outputs 0 (default-initialized since key 5 does not exist)
+    auto it7=m1.lower_bound(1);
+    auto it6=m1.upper_bound(2);
 
     return 0;
 }
