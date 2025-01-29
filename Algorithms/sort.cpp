@@ -36,5 +36,16 @@ sort(brr,brr+l,mycomp);
     }
     cout << endl;
 
+    int num=7;
+    int count=__builtin_popcount(n);
+    cout<<count<<endl;
+    string s="123";
+    sort(s.begin(),s.end());  //Sorting s String is easy ...
+    
+    do {
+        cout<<s<<endl;
+    }
+    while (next_permutation(s.begin(),s.end()));
+    int maxi=*max_element(arr,arr+l); //Used to Find the Maximum Element.
     return 0;
 }
