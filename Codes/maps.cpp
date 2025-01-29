@@ -25,6 +25,6 @@ int main() {
     // Outputs 0 (default-initialized since key 5 does not exist)
     auto it7=m1.lower_bound(1);
     auto it6=m1.upper_bound(2);
-
+//In maps duplicate keys are also allowed to store.
     return 0;
 }
