@@ -29,3 +29,8 @@ int main() {
 //Creating frequency map O(n)
 //Querying occurrences: O(1) per query (since map lookup is O(log n), but on average O(1) for small data)
 //Total complexity: O(n + q)
+
+
+/*Storing and Fetching in Map Takes log(n) Amount of Time 
+for each and every case whether it is Average,Best or Worst Case.*/
+//Here n is the no. of Elements that are in the Map.
