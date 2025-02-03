@@ -34,3 +34,6 @@ int main() {
 /*Storing and Fetching in Map Takes log(n) Amount of Time 
 for each and every case whether it is Average,Best or Worst Case.*/
 //Here n is the no. of Elements that are in the Map.
+
+//Here we used Maps, But if we have used Unordered Maps the answer would have been same.\
+//Unordered Maps also do the same thing.
