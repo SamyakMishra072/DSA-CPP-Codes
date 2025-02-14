@@ -33,7 +33,7 @@ Contributions are welcome! Feel free to fork the repository, create a new branch
 1. **Fork** the repository
 2. **Clone** your forked repository:
    ```sh
-   git clone https://github.com/your-username/CPP-Codes.git
+   git clone https://github.com/SamyakMishra072/CPP-Codes.git
    ```
 3. **Create a new branch**
    ```sh
