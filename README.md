@@ -35,18 +35,14 @@ Contributions are welcome! Feel free to fork the repository, create a new branch
    ```sh
    git clone https://github.com/SamyakMishra072/CPP-Codes.git
    ```
-3. **Create a new branch**
-   ```sh
-   git checkout -b feature-branch
-   ```
-4. **Make your changes and commit**
+3. **Make your changes and commit**
    ```sh
    git add .
    git commit -m "Added new feature"
    ```
-5. **Push the changes and create a pull request**
+4. **Push the changes and create a pull request**
    ```sh
-   git push origin feature-branch
+   git push
    ```
 
 ## 📬 Contact
